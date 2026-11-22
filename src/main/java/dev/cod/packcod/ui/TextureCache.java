@@ -1,6 +1,6 @@
-package com.enc.packcod.ui;
+package dev.cod.packcod.ui;
 
-import com.enc.packcod.pack.AssetSource;
+import dev.cod.packcod.pack.AssetSource;
 import com.mojang.blaze3d.platform.NativeImage;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.texture.DynamicTexture;

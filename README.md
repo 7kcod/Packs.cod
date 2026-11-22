@@ -6,7 +6,7 @@
   <img alt="Minecraft" src="https://img.shields.io/badge/Minecraft-1.21.11-62B47A?style=for-the-badge">
   <img alt="Fabric" src="https://img.shields.io/badge/Fabric-0.18.1-DBD0B4?style=for-the-badge">
   <img alt="Java" src="https://img.shields.io/badge/Java-21-4FC3F7?style=for-the-badge">
-  <img alt="Version" src="https://img.shields.io/badge/version-0.24-4FC3F7?style=for-the-badge">
+  <img alt="Version" src="https://img.shields.io/badge/version-0.25-4FC3F7?style=for-the-badge">
   <img alt="License" src="https://img.shields.io/badge/license-MIT-E8A33D?style=for-the-badge">
 </p>
 
@@ -95,7 +95,7 @@ with the mod loaded; `BUILD.bat` builds and copies the jar into a Modrinth profi
 ### Project layout
 
 ```
-src/main/java/com/enc/packcod/
+src/main/java/dev/cod/packcod/
 ├── PackCodClient.java   entry point, title button, /packcod
 ├── pack/                categories, pack library, mixes, exporter, settings, PacksMC
 └── ui/                  mixer, previews, first-person renderer, pixel editor, export, look, browse
@@ -107,7 +107,7 @@ See **[CHANGELOG.md](CHANGELOG.md)**. Every update gets a new `0.x` version.
 
 ## Credits
 
-Made by **7kcod** 🇧🇾 (solo dev) · ENC Productions
+Made by **7kcod** 🇧🇾 (solo dev)
 
 If you share a pack you mixed, credit the original pack authors and respect their licences
 (every export includes a `credits.txt`). Pack list from [PacksMC](https://packsmc.com).

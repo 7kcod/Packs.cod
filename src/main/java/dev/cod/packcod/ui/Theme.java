@@ -1,6 +1,6 @@
-package com.enc.packcod.ui;
+package dev.cod.packcod.ui;
 
-import com.enc.packcod.pack.Settings;
+import dev.cod.packcod.pack.Settings;
 import net.minecraft.client.gui.Font;
 import net.minecraft.client.gui.GuiGraphics;
 

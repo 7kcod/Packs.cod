@@ -1,9 +1,9 @@
-package com.enc.packcod.ui;
+package dev.cod.packcod.ui;
 
-import com.enc.packcod.PackCodClient;
-import com.enc.packcod.pack.MixProject;
-import com.enc.packcod.pack.PackExporter;
-import com.enc.packcod.pack.PackLibrary;
+import dev.cod.packcod.PackCodClient;
+import dev.cod.packcod.pack.MixProject;
+import dev.cod.packcod.pack.PackExporter;
+import dev.cod.packcod.pack.PackLibrary;
 import com.mojang.blaze3d.platform.NativeImage;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.components.EditBox;
@@ -20,7 +20,7 @@ import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.enc.packcod.ui.Theme.*;
+import static dev.cod.packcod.ui.Theme.*;
 
 /**
  * Last step before exporting: name the pack, pick the colour its name shows in, and give it an

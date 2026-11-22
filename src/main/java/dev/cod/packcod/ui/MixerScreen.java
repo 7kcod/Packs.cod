@@ -1,12 +1,12 @@
-package com.enc.packcod.ui;
+package dev.cod.packcod.ui;
 
-import com.enc.packcod.PackCodClient;
-import com.enc.packcod.pack.AssetSource;
-import com.enc.packcod.pack.Assets;
-import com.enc.packcod.pack.MixProject;
-import com.enc.packcod.pack.PackExporter;
-import com.enc.packcod.pack.PackLibrary;
-import com.enc.packcod.pack.Settings;
+import dev.cod.packcod.PackCodClient;
+import dev.cod.packcod.pack.AssetSource;
+import dev.cod.packcod.pack.Assets;
+import dev.cod.packcod.pack.MixProject;
+import dev.cod.packcod.pack.PackExporter;
+import dev.cod.packcod.pack.PackLibrary;
+import dev.cod.packcod.pack.Settings;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.components.EditBox;
@@ -21,7 +21,7 @@ import java.util.List;
 import java.util.Locale;
 import java.util.concurrent.CompletableFuture;
 
-import static com.enc.packcod.ui.Theme.*;
+import static dev.cod.packcod.ui.Theme.*;
 
 /**
  * pack.cod main screen.
@@ -155,7 +155,7 @@ public final class MixerScreen extends Screen {
     private List<Row> buildRows() {
         List<Row> rows = new ArrayList<>();
         rows.add(new Row(0, "\u2B07 Browse packs", "browse", null));
-        for (com.enc.packcod.pack.Categories.Node n : com.enc.packcod.pack.Categories.TREE) addRow(rows, n, 0, "");
+        for (dev.cod.packcod.pack.Categories.Node n : dev.cod.packcod.pack.Categories.TREE) addRow(rows, n, 0, "");
         rows.add(new Row(0, "Folders", null, "Folders"));
         if (expanded.contains("Folders")) {
             for (String sec : lib.sections().keySet()) rows.add(new Row(1, sectionTitle(sec), sec, null));
@@ -163,7 +163,7 @@ public final class MixerScreen extends Screen {
         return rows;
     }
 
-    private void addRow(List<Row> rows, com.enc.packcod.pack.Categories.Node n, int depth, String parent) {
+    private void addRow(List<Row> rows, dev.cod.packcod.pack.Categories.Node n, int depth, String parent) {
         String sec = n.category() == null ? null : "cat:" + n.category();
         if (!n.isGroup()) {
             if (sec != null && !keysFor(sec).isEmpty()) rows.add(new Row(depth, n.label(), sec, null));
@@ -193,13 +193,13 @@ public final class MixerScreen extends Screen {
         for (String key : keysFor(section)) {
             if (brushOnly && brush != null && !brush.isVanilla() && !packHas(brush, key)) continue;
             if (!query.isEmpty() && !key.toLowerCase(Locale.ROOT).contains(query)) continue;
-            String set = com.enc.packcod.pack.Categories.setOf(key);
+            String set = dev.cod.packcod.pack.Categories.setOf(key);
             if (set == null) {
                 out.add(key);
             } else if (!setIndex.containsKey(set)) {
                 setIndex.put(set, out.size());
                 out.add(key);
-            } else if (com.enc.packcod.pack.Categories.isPreferredRep(key, set)) {
+            } else if (dev.cod.packcod.pack.Categories.isPreferredRep(key, set)) {
                 out.set(setIndex.get(set), key);
             }
         }
@@ -277,7 +277,7 @@ public final class MixerScreen extends Screen {
 
     private void pick(String key, AssetSource src) {
         dirty = true;
-        String set = com.enc.packcod.pack.Categories.setOf(key);
+        String set = dev.cod.packcod.pack.Categories.setOf(key);
         if (set == null) {
             project.set(key, src);
             return;
@@ -1045,11 +1045,11 @@ public final class MixerScreen extends Screen {
             preview.icon3d(g, key, src, x, y, size);
             return;
         }
-        if (com.enc.packcod.pack.Categories.isShield(key)) {
+        if (dev.cod.packcod.pack.Categories.isShield(key)) {
             preview.draw(g, Preview.Mode.FLAT, key, src, x, y, size);
             return;
         }
-        if (com.enc.packcod.pack.Categories.isSky(key)) {
+        if (dev.cod.packcod.pack.Categories.isSky(key)) {
             preview.draw(g, Preview.Mode.FLAT, key, src, x, y, size);
             return;
         }
@@ -1101,7 +1101,7 @@ public final class MixerScreen extends Screen {
 
     /** Names for sets read as the thing itself: "grass block", "hearts", "crosshair". */
     private static String prettyName(String key) {
-        String set = com.enc.packcod.pack.Categories.setOf(key);
+        String set = dev.cod.packcod.pack.Categories.setOf(key);
         if (set == null) return Assets.pretty(key);
         if (set.equals("hearts")) return "hearts (all kinds)";
         if (set.equals("crosshair")) return "crosshair";
@@ -1137,7 +1137,7 @@ public final class MixerScreen extends Screen {
     }
 
     private AssetSource current(String key) {
-        String set = com.enc.packcod.pack.Categories.setOf(key);
+        String set = dev.cod.packcod.pack.Categories.setOf(key);
         if (set != null) {
             for (String k : lib.setMembers(set)) {
                 AssetSource s = lib.source(project.pickFor(k));
@@ -1152,13 +1152,13 @@ public final class MixerScreen extends Screen {
     /** Does this pack change this thing (for sets: any part of it)? */
     private boolean packHas(AssetSource s, String key) {
         if (s.isVanilla() || s.has(key) || lib.itemModelHolders(key).contains(s)) return true;
-        String set = com.enc.packcod.pack.Categories.setOf(key);
+        String set = dev.cod.packcod.pack.Categories.setOf(key);
         return set != null && lib.setHolders(set).contains(s);
     }
 
     /** Every pack with a version of this thing, vanilla first. */
     private List<AssetSource> holdersFor(String key) {
-        String set = com.enc.packcod.pack.Categories.setOf(key);
+        String set = dev.cod.packcod.pack.Categories.setOf(key);
         return lib.shown(set != null ? lib.setHolders(set) : lib.allHolders(key));
     }
 

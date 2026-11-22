@@ -1,6 +1,6 @@
-package com.enc.packcod.ui;
+package dev.cod.packcod.ui;
 
-import com.enc.packcod.pack.Settings;
+import dev.cod.packcod.pack.Settings;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.client.input.MouseButtonEvent;
@@ -11,7 +11,7 @@ import net.minecraft.resources.Identifier;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.enc.packcod.ui.Theme.*;
+import static dev.cod.packcod.ui.Theme.*;
 
 /**
  * Look: pick a colour palette, an accent colour and a style for the whole UI.

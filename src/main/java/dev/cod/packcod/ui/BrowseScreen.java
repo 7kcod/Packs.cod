@@ -1,7 +1,7 @@
-package com.enc.packcod.ui;
+package dev.cod.packcod.ui;
 
-import com.enc.packcod.pack.PacksMc;
-import com.enc.packcod.pack.Settings;
+import dev.cod.packcod.pack.PacksMc;
+import dev.cod.packcod.pack.Settings;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.components.EditBox;
 import net.minecraft.client.gui.screens.Screen;
@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.Locale;
 import java.util.concurrent.CompletableFuture;
 
-import static com.enc.packcod.ui.Theme.*;
+import static dev.cod.packcod.ui.Theme.*;
 
 /**
  * Browse: PacksMC's 50 most downloaded packs.

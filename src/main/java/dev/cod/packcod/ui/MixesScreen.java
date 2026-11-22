@@ -1,8 +1,8 @@
-package com.enc.packcod.ui;
+package dev.cod.packcod.ui;
 
-import com.enc.packcod.pack.AssetSource;
-import com.enc.packcod.pack.MixProject;
-import com.enc.packcod.pack.PackLibrary;
+import dev.cod.packcod.pack.AssetSource;
+import dev.cod.packcod.pack.MixProject;
+import dev.cod.packcod.pack.PackLibrary;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.components.EditBox;
 import net.minecraft.client.gui.screens.Screen;
@@ -14,7 +14,7 @@ import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
 
-import static com.enc.packcod.ui.Theme.*;
+import static dev.cod.packcod.ui.Theme.*;
 
 /**
  * Saved mixes and mix codes. Save the current mix under a name, switch to another in one

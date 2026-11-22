@@ -1,4 +1,4 @@
-package com.enc.packcod.pack;
+package dev.cod.packcod.pack;
 
 import java.io.Closeable;
 import java.util.Set;

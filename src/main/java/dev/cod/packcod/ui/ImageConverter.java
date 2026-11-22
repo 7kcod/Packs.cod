@@ -1,4 +1,4 @@
-package com.enc.packcod.ui;
+package dev.cod.packcod.ui;
 
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;

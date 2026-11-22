@@ -1,4 +1,4 @@
-package com.enc.packcod.ui;
+package dev.cod.packcod.ui;
 
 import com.mojang.blaze3d.platform.NativeImage;
 import net.fabricmc.loader.api.FabricLoader;

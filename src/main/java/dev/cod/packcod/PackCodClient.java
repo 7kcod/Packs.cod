@@ -1,7 +1,7 @@
-package com.enc.packcod;
+package dev.cod.packcod;
 
-import com.enc.packcod.ui.Backgrounds;
-import com.enc.packcod.ui.MixerScreen;
+import dev.cod.packcod.ui.Backgrounds;
+import dev.cod.packcod.ui.MixerScreen;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.Screenshot;
 import net.fabricmc.api.ClientModInitializer;

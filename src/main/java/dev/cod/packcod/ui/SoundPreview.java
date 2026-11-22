@@ -1,4 +1,4 @@
-package com.enc.packcod.ui;
+package dev.cod.packcod.ui;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.sounds.SoundSource;

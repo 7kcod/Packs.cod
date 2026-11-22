@@ -4,12 +4,12 @@
   "version": "${version}",
   "name": "pack.cod",
   "description": "Mix your own resource pack from the ones you have: pick every texture, model and sound per item from any pack, hear sounds and compare versions side by side, then export a normal pack friends can use without the mod.",
-  "authors": ["ENC Productions"],
+  "authors": ["7kcod"],
   "license": "MIT",
   "icon": "assets/packcod/icon.png",
   "environment": "client",
   "entrypoints": {
-    "client": ["com.enc.packcod.PackCodClient"]
+    "client": ["dev.cod.packcod.PackCodClient"]
   },
   "depends": {
     "fabricloader": ">=0.18.0",

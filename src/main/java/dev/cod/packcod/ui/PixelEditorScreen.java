@@ -1,7 +1,7 @@
-package com.enc.packcod.ui;
+package dev.cod.packcod.ui;
 
-import com.enc.packcod.pack.Assets;
-import com.enc.packcod.pack.PackExporter;
+import dev.cod.packcod.pack.Assets;
+import dev.cod.packcod.pack.PackExporter;
 import com.mojang.blaze3d.platform.NativeImage;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.screens.Screen;
@@ -22,7 +22,7 @@ import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
 
-import static com.enc.packcod.ui.Theme.*;
+import static dev.cod.packcod.ui.Theme.*;
 
 /**
  * Pixel editor. Opens on any texture (whichever pack's version is in use), lets you draw

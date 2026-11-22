@@ -1,4 +1,4 @@
-package com.enc.packcod.pack;
+package dev.cod.packcod.pack;
 
 /** Which files can be mixed, and how they're grouped into sections. */
 public final class Assets {

@@ -3,6 +3,10 @@
 Every update gets a new `0.x` version. The version also shows small next to the logo in the mod.
 Newest first.
 
+## 0.25
+- Credits are just 7kcod now, everywhere (mod info, license, READMEs).
+- The code's package is now `dev.cod`. Nothing changes in game and your settings are kept.
+
 ## 0.24
 - When pack.cod is running inside pvp.cod, its cod button on the title screen and Resource Packs screen is hidden; open it from the pvp.cod menu instead. On its own, pack.cod works exactly as before.
 

@@ -1,9 +1,9 @@
-package com.enc.packcod.ui;
+package dev.cod.packcod.ui;
 
-import com.enc.packcod.pack.AssetSource;
-import com.enc.packcod.pack.Assets;
-import com.enc.packcod.pack.Categories;
-import com.enc.packcod.pack.PackLibrary;
+import dev.cod.packcod.pack.AssetSource;
+import dev.cod.packcod.pack.Assets;
+import dev.cod.packcod.pack.Categories;
+import dev.cod.packcod.pack.PackLibrary;
 import com.mojang.blaze3d.platform.NativeImage;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.renderer.RenderPipelines;
@@ -148,7 +148,7 @@ final class Preview {
             inGame(g, key, src, x, y, w, h);
             return;
         }
-        if (mode == Mode.FLAT && com.enc.packcod.pack.Categories.isSky(key)) {
+        if (mode == Mode.FLAT && dev.cod.packcod.pack.Categories.isSky(key)) {
             sky(g, src, x, y, w, h);
             return;
         }
@@ -163,7 +163,7 @@ final class Preview {
             default -> {
                 TextureCache.Thumb t = thumb(src, isBreaking(key) ? stageKey(key) : key);
                 if (t == null) break;
-                if (com.enc.packcod.pack.Categories.isShield(key)) {
+                if (dev.cod.packcod.pack.Categories.isShield(key)) {
                     // just the shield's front face (12x22 at 1,1 on its 64x64 sheet)
                     float k = t.width() / 64f;
                     int dh = size, dw = Math.round(size * 12 / 22f);
@@ -378,7 +378,7 @@ final class Preview {
         }
 
         // End crystals are shown placed in the world, on obsidian, the way you'd see them in a fight.
-        if ("end_crystal".equals(com.enc.packcod.pack.Categories.setOf(key))) {
+        if ("end_crystal".equals(dev.cod.packcod.pack.Categories.setOf(key))) {
             placedCrystal(g, src, x, y, W, H);
         } else if (isBreaking(key)) {
             breakingScene(g, key, src, x, y, W, H);

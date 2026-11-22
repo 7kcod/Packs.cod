@@ -1,4 +1,4 @@
-package com.enc.packcod.pack;
+package dev.cod.packcod.pack;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.resources.Identifier;
