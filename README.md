@@ -109,6 +109,8 @@ See **[CHANGELOG.md](CHANGELOG.md)**. Every update gets a new `0.x` version.
 
 Made by **7kcod** 🇧🇾 (solo dev)
 
+Built by 7kcod with help from Claude.
+
 If you share a pack you mixed, credit the original pack authors and respect their licences
 (every export includes a `credits.txt`). Pack list from [PacksMC](https://packsmc.com).
 Not affiliated with Mojang or PacksMC.
