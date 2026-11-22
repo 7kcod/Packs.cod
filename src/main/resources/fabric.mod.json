@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "packcod",
+  "version": "${version}",
+  "name": "pack.cod",
+  "description": "Mix your own resource pack from the ones you have: pick every texture, model and sound per item from any pack, hear sounds and compare versions side by side, then export a normal pack friends can use without the mod.",
+  "authors": ["ENC Productions"],
+  "license": "MIT",
+  "icon": "assets/packcod/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.enc.packcod.PackCodClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

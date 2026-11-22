@@ -1,0 +1,79 @@
+import java.util.zip.ZipFile
+
+plugins {
+    id 'fabric-loom' version '1.14-SNAPSHOT'
+}
+
+version = project.mod_version
+group = project.maven_group
+
+base {
+    archivesName = project.archives_base_name
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    mappings loom.officialMojangMappings()
+    modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+}
+
+// The mod icon is the game's own cod item texture, copied out of your Minecraft jar at build time
+// (it isn't stored in this project).
+def iconDir = layout.buildDirectory.dir('generated/icon')
+def extractCodIcon = tasks.register('extractCodIcon') {
+    outputs.dir(iconDir)
+    doLast {
+        def out = iconDir.get().file('assets/packcod/icon.png').asFile
+        out.parentFile.mkdirs()
+        def entry = 'assets/minecraft/textures/item/cod.png'
+        def jars = configurations.compileClasspath.files.findAll { it.name.endsWith('.jar') && it.name.contains('minecraft') }
+        def loomCache = new File(gradle.gradleUserHomeDir, 'caches/fabric-loom')
+        if (loomCache.isDirectory()) {
+            loomCache.eachFileRecurse { f -> if (f.name.endsWith('.jar') && f.name.contains('client')) jars << f }
+        }
+        for (File jar : jars) {
+            try {
+                def zip = new ZipFile(jar)
+                def e = zip.getEntry(entry)
+                if (e != null) {
+                    out.bytes = zip.getInputStream(e).bytes
+                    zip.close()
+                    return
+                }
+                zip.close()
+            } catch (Exception ignored) {
+            }
+        }
+        logger.warn('pack.cod: could not find cod.png in the Minecraft jar; building without an icon')
+    }
+}
+
+processResources {
+    dependsOn extractCodIcon
+    from(iconDir)
+    inputs.property "version", project.version
+    filesMatching("fabric.mod.json") {
+        expand "version": inputs.properties.version
+    }
+}
+
+loom {
+    runs {
+        client {
+            client()
+            configName = "pack.cod test"
+            runDir = "run"
+        }
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    it.options.release = 21
+    it.options.encoding = 'UTF-8'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
+}

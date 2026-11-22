@@ -1,0 +1,605 @@
+{
+ "source": "packsmc.com, most downloaded",
+ "date": "2026-11-21",
+ "packs": [
+  {
+   "slug": "swight-v3-d5e1021c",
+   "name": "Swight V3",
+   "author": "Sub2jiro",
+   "res": "16x",
+   "tags": [
+    "Custom sky",
+    "PvP"
+   ],
+   "downloads": 39327,
+   "views": 100759
+  },
+  {
+   "slug": "pigblack-d86ff953",
+   "name": "PigBlack",
+   "author": "Pigmen",
+   "res": "16x",
+   "tags": [
+    "Custom sky",
+    "PvP"
+   ],
+   "downloads": 36990,
+   "views": 126485
+  },
+  {
+   "slug": "baseballbeans-clean-pack-648d8668",
+   "name": "BaseballBeans Clean Pack",
+   "author": "BaseballBeans' packs",
+   "res": "16x",
+   "tags": [
+    "Clear",
+    "PvP"
+   ],
+   "downloads": 34251,
+   "views": 111511
+  },
+  {
+   "slug": "minemanner-pack-9a815eee",
+   "name": "minemanner pack",
+   "author": "Fabriicio Community",
+   "res": "128x",
+   "tags": [
+    "Clear",
+    "Custom sky"
+   ],
+   "downloads": 29907,
+   "views": 92687
+  },
+  {
+   "slug": "egooyx-clean-texturepack-3f9a880b",
+   "name": "EGOOyx Clean Texturepack",
+   "author": "IEGOOI",
+   "res": "16x",
+   "tags": [
+    "Custom sky",
+    "PvP"
+   ],
+   "downloads": 27161,
+   "views": 72473
+  },
+  {
+   "slug": "doly-128x-15bc3901",
+   "name": "Doly 128x",
+   "author": "SBSTAN",
+   "res": "128x",
+   "tags": [
+    "Custom sky",
+    "PvP"
+   ],
+   "downloads": 25291,
+   "views": 64433
+  },
+  {
+   "slug": "alek-japanese-pack-8fc5b913",
+   "name": "Alek Japanese Pack",
+   "author": "FANCY",
+   "res": "128x",
+   "tags": [
+    "Custom sky",
+    "PvP"
+   ],
+   "downloads": 24571,
+   "views": 65599
+  },
+  {
+   "slug": "vonpack-v20-black-514a2bf3",
+   "name": "Vonpack v2.0 black",
+   "author": "Themvon",
+   "res": "128x",
+   "tags": [
+    "Clear",
+    "Custom sky"
+   ],
+   "downloads": 24289,
+   "views": 60513
+  },
+  {
+   "slug": "melody-pack-2ead5f60",
+   "name": "Melody Pack",
+   "author": "Fabriicio Community",
+   "res": "32x",
+   "tags": [
+    "Clear",
+    "Custom sky"
+   ],
+   "downloads": 21628,
+   "views": 61838
+  },
+  {
+   "slug": "tung-tung-tung-sahur-e324a3d7",
+   "name": "Tung Tung Tung Sahur",
+   "author": "Sub2jiro",
+   "res": "",
+   "tags": [
+    "PvP",
+    "Sword",
+    "Nethpot"
+   ],
+   "downloads": 20803,
+   "views": 61958
+  },
+  {
+   "slug": "v1ktor2slow-txp-5554f984",
+   "name": "V1ktor2slow TxP",
+   "author": "V1ktor2slow",
+   "res": "16x",
+   "tags": [
+    "Clear",
+    "Custom sky"
+   ],
+   "downloads": 18831,
+   "views": 47572
+  },
+  {
+   "slug": "bloodlust-28e8d691",
+   "name": "BloodLust",
+   "author": "Fabriicio Community",
+   "res": "32x",
+   "tags": [
+    "Custom sky",
+    "PvP"
+   ],
+   "downloads": 18574,
+   "views": 53285
+  },
+  {
+   "slug": "1218-1b2395b0",
+   "name": "1.21.8",
+   "author": "xyzoomifyYT",
+   "res": "16x",
+   "tags": [
+    "Clear",
+    "Custom sky"
+   ],
+   "downloads": 18101,
+   "views": 45006
+  },
+  {
+   "slug": "sakura-tweaks-2-3be3e83d",
+   "name": "Sakura Tweaks 2",
+   "author": "BaseballBeans' packs",
+   "res": "64x",
+   "tags": [
+    "Custom sky",
+    "PvP"
+   ],
+   "downloads": 17136,
+   "views": 42718
+  },
+  {
+   "slug": "pigpack-9dd3f370",
+   "name": "Pigpack",
+   "author": "pirukas mees",
+   "res": "16x",
+   "tags": [
+    "Clear",
+    "Custom sky"
+   ],
+   "downloads": 17107,
+   "views": 61151
+  },
+  {
+   "slug": "better-pvp-visual-23e581de",
+   "name": "Better PvP Visual",
+   "author": "AimLvca",
+   "res": "32x",
+   "tags": [
+    "PvP"
+   ],
+   "downloads": 16086,
+   "views": 42657
+  },
+  {
+   "slug": "vanilla-3d-crystal-by-marlowww-1d1125ed",
+   "name": "Vanilla+ 3D crystal by Marlowww",
+   "author": "Romyraaax",
+   "res": "32x",
+   "tags": [
+    "PvP",
+    "UHC"
+   ],
+   "downloads": 15476,
+   "views": 33771
+  },
+  {
+   "slug": "zansblack-a2d508d5",
+   "name": "ZansBlack",
+   "author": "Zansyz",
+   "res": "16x",
+   "tags": [
+    "Custom sky",
+    "PvP"
+   ],
+   "downloads": 15175,
+   "views": 35779
+  },
+  {
+   "slug": "unstable-smp-texture-pack-c125e7db",
+   "name": "Unstable SMP Texture Pack",
+   "author": "BaseballBeans' packs",
+   "res": "",
+   "tags": [
+    "Vanilla"
+   ],
+   "downloads": 15106,
+   "views": 52568
+  },
+  {
+   "slug": "baseballbeans-mace-pack-12966689",
+   "name": "! BaseballBeans Mace Pack",
+   "author": "BaseballBeans' packs",
+   "res": "16x",
+   "tags": [
+    "PvP",
+    "Mace"
+   ],
+   "downloads": 14948,
+   "views": 46722
+  },
+  {
+   "slug": "lluri-s-smp-pack-v2-3e12558e",
+   "name": "Lluri's SMP Pack v2",
+   "author": "lluri's community",
+   "res": "16x",
+   "tags": [
+    "Clear",
+    "PvP"
+   ],
+   "downloads": 13456,
+   "views": 35062
+  },
+  {
+   "slug": "flowtives-150k-90dc02a1",
+   "name": "Flowtives 150k",
+   "author": "TryH4rdd",
+   "res": "16x",
+   "tags": [
+    "PvP",
+    "UHC"
+   ],
+   "downloads": 13156,
+   "views": 36835
+  },
+  {
+   "slug": "hollow-knight-pack-7366743d",
+   "name": "Hollow Knight Pack",
+   "author": "Fabriicio Community",
+   "res": "16x",
+   "tags": [
+    "Custom sky",
+    "PvP"
+   ],
+   "downloads": 13026,
+   "views": 38498
+  },
+  {
+   "slug": "swightpackv3-0f1b3d24",
+   "name": "Swightpackv3",
+   "author": "walkers",
+   "res": "16x",
+   "tags": [
+    "Custom sky",
+    "PvP"
+   ],
+   "downloads": 11631,
+   "views": 30690
+  },
+  {
+   "slug": "yangbubu-private-edited-v2-653576d5",
+   "name": "yangbubu private edited V2",
+   "author": "PerfectOpti",
+   "res": "16x",
+   "tags": [
+    "Clear",
+    "Custom sky"
+   ],
+   "downloads": 11533,
+   "views": 24487
+  },
+  {
+   "slug": "legendarryys-overlay-6e078916",
+   "name": "Legendarryy's Overlay",
+   "author": "Legendarryy",
+   "res": "16x",
+   "tags": [
+    "Clear",
+    "Custom sky"
+   ],
+   "downloads": 11059,
+   "views": 23819
+  },
+  {
+   "slug": "harlu-donut-smp-3fcd5bd6",
+   "name": "Harlu Donut SMP",
+   "author": "Harluuuu's Packs",
+   "res": "",
+   "tags": [
+    "Clear",
+    "Other"
+   ],
+   "downloads": 11057,
+   "views": 32035
+  },
+  {
+   "slug": "zanssmp-6d0ffd98",
+   "name": "ZansSMP",
+   "author": "Zansyz",
+   "res": "16x",
+   "tags": [
+    "Custom sky",
+    "PvP"
+   ],
+   "downloads": 11046,
+   "views": 23591
+  },
+  {
+   "slug": "baseballbeans-vanilla-d4d28d0d",
+   "name": "BaseballBeans Vanilla",
+   "author": "BaseballBeans' packs",
+   "res": "",
+   "tags": [
+    "PvP",
+    "Mace",
+    "Sword"
+   ],
+   "downloads": 10844,
+   "views": 36557
+  },
+  {
+   "slug": "minazuki-8e505797",
+   "name": "minazuki",
+   "author": "Technolot's Community",
+   "res": "64x",
+   "tags": [
+    "Clear",
+    "Custom sky"
+   ],
+   "downloads": 10498,
+   "views": 21997
+  },
+  {
+   "slug": "elmeriizz-texturepack-209b90d7",
+   "name": "Elmeriizz Texturepack",
+   "author": "Asailant",
+   "res": "16x",
+   "tags": [
+    "PvP",
+    "Mace"
+   ],
+   "downloads": 10296,
+   "views": 30006
+  },
+  {
+   "slug": "vonpack-v18-70e37457",
+   "name": "Vonpack v1.8",
+   "author": "Themvon",
+   "res": "128x",
+   "tags": [
+    "Custom sky",
+    "PvP"
+   ],
+   "downloads": 10276,
+   "views": 22787
+  },
+  {
+   "slug": "theobalds-barebones-pvp-d898f765",
+   "name": "Theobalds Barebones PVP",
+   "author": "KittyKingzz",
+   "res": "16x",
+   "tags": [
+    "Custom sky",
+    "PvP"
+   ],
+   "downloads": 10255,
+   "views": 20639
+  },
+  {
+   "slug": "pigpackv6-becb77b4",
+   "name": "PigPackV6",
+   "author": "Pigmen",
+   "res": "16x",
+   "tags": [
+    "Clear",
+    "Custom sky"
+   ],
+   "downloads": 10212,
+   "views": 23189
+  },
+  {
+   "slug": "tryh4rdd-pack-blue-b53c1ccf",
+   "name": "TRYH4RDD PACK BLUE",
+   "author": "TryH4rdd",
+   "res": "16x",
+   "tags": [
+    "Custom sky",
+    "PvP"
+   ],
+   "downloads": 9908,
+   "views": 21748
+  },
+  {
+   "slug": "dewier-20k-e1d92088",
+   "name": "Dewier 20k",
+   "author": "Technolot's Community",
+   "res": "16x",
+   "tags": [
+    "Custom sky",
+    "PvP"
+   ],
+   "downloads": 9791,
+   "views": 20967
+  },
+  {
+   "slug": "lluri-100k-pack-94064576",
+   "name": "lluri 100k pack",
+   "author": "lluri's community",
+   "res": "16x",
+   "tags": [
+    "Clear",
+    "Custom sky"
+   ],
+   "downloads": 9724,
+   "views": 23678
+  },
+  {
+   "slug": "spawnplayer-25k-4ec6b9e6",
+   "name": "Spawnplayer 25K!!",
+   "author": "Spawnplayer",
+   "res": "16x",
+   "tags": [
+    "PvP",
+    "UHC"
+   ],
+   "downloads": 9591,
+   "views": 23651
+  },
+  {
+   "slug": "sin-32x-f44bb210",
+   "name": "Sin 32x",
+   "author": "Technolot's Community",
+   "res": "32x",
+   "tags": [
+    "Custom sky",
+    "PvP"
+   ],
+   "downloads": 9537,
+   "views": 21996
+  },
+  {
+   "slug": "devoid-236e9463",
+   "name": "DeVoid",
+   "author": "Fabriicio Community",
+   "res": "32x",
+   "tags": [
+    "Custom sky",
+    "PvP"
+   ],
+   "downloads": 9386,
+   "views": 21860
+  },
+  {
+   "slug": "doly-50000-af0aa44b",
+   "name": "Doly 50000",
+   "author": "BaseballBeans' packs",
+   "res": "32x",
+   "tags": [
+    "Custom sky",
+    "PvP"
+   ],
+   "downloads": 9195,
+   "views": 26406
+  },
+  {
+   "slug": "blvckwlf-5k-pack-db784ebc",
+   "name": "BlvckWlf 5k Pack",
+   "author": "BlvckWlf",
+   "res": "16x",
+   "tags": [
+    "PvP"
+   ],
+   "downloads": 9170,
+   "views": 25351
+  },
+  {
+   "slug": "zqilax-clean-diasmp-pack-f74b6146",
+   "name": "Zqilax clean Diasmp pack",
+   "author": "Zqilax",
+   "res": "16x",
+   "tags": [
+    "Custom sky",
+    "Other"
+   ],
+   "downloads": 8962,
+   "views": 19726
+  },
+  {
+   "slug": "best-spear-mace-pvp-texture-pack-d074a1bb",
+   "name": "BEST Spear-Mace PvP Texture Pack",
+   "author": "BaseballBeans' packs",
+   "res": "16x",
+   "tags": [
+    "PvP",
+    "Mace"
+   ],
+   "downloads": 8793,
+   "views": 25421
+  },
+  {
+   "slug": "fortnite-pack-6bbf9b9c",
+   "name": "Fortnite Pack",
+   "author": "BlvckWlf",
+   "res": "128x",
+   "tags": [
+    "Custom sky",
+    "Other"
+   ],
+   "downloads": 8693,
+   "views": 20745
+  },
+  {
+   "slug": "black-knight-192d9433",
+   "name": "Black Knight",
+   "author": "Fabriicio Community",
+   "res": "32x",
+   "tags": [
+    "Custom sky",
+    "PvP"
+   ],
+   "downloads": 8669,
+   "views": 19471
+  },
+  {
+   "slug": "edit-vonpack-v20-24c177cd",
+   "name": "Edit Vonpack v2.0",
+   "author": "Temi Community",
+   "res": "128x",
+   "tags": [
+    "Clear",
+    "Custom sky"
+   ],
+   "downloads": 8618,
+   "views": 19601
+  },
+  {
+   "slug": "blue-128-goat-pack-fd53992e",
+   "name": "Blue 128 GOAT PACK",
+   "author": "Vexaay",
+   "res": "128x",
+   "tags": [
+    "Clear",
+    "Custom sky"
+   ],
+   "downloads": 8564,
+   "views": 16468
+  },
+  {
+   "slug": "blue-blood-txt-505c907c",
+   "name": "Blue Blood txt",
+   "author": "LamRuby",
+   "res": "32x",
+   "tags": [
+    "Custom sky",
+    "PvP"
+   ],
+   "downloads": 8544,
+   "views": 21474
+  },
+  {
+   "slug": "garou-7f665392",
+   "name": "Garou",
+   "author": "Fabriicio Community",
+   "res": "32x",
+   "tags": [
+    "Clear",
+    "Custom sky"
+   ],
+   "downloads": 8504,
+   "views": 20501
+  }
+ ]
+}
