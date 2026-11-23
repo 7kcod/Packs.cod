@@ -18,6 +18,7 @@
 
 <p align="center">
   <a href="#features">Features</a> ·
+  <a href="https://github.com/7kcod/Packs.cod/releases/latest"><b>⬇ Download</b></a> ·
   <a href="#install">Install</a> ·
   <a href="#using-it">Using it</a> ·
   <a href="#building">Building</a> ·
@@ -69,7 +70,7 @@ and 5 styles (Classic, Pixel, Flat, Outline, Glow). client.cod uses the same loo
 ## Install
 
 1. Install [Fabric Loader](https://fabricmc.net/use/) for **1.21.11** and [Fabric API](https://modrinth.com/mod/fabric-api).
-2. Put `pack-cod-<version>.jar` in your `mods` folder.
+2. Download `pack-cod-<version>.jar` from **[Releases](https://github.com/7kcod/Packs.cod/releases/latest)** and put it in your `mods` folder.
 3. Using client.cod? Then you **don't** need this jar: pack.cod is already inside it.
 
 ## Using it

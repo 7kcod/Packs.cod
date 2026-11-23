@@ -4,6 +4,9 @@ on:
   push:
   pull_request:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -19,3 +22,21 @@ jobs:
         with:
           name: pack-cod
           path: build/libs/*.jar
+      # Every push to main publishes (or updates) a GitHub Release for the version in gradle.properties,
+      # with the jar attached, so people can download it from the Releases page.
+      - name: Read version
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        id: ver
+        run: echo "v=$(grep '^mod_version=' gradle.properties | cut -d= -f2)" >> "$GITHUB_OUTPUT"
+      - name: Publish release
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ steps.ver.outputs.v }}
+          name: packs.cod ${{ steps.ver.outputs.v }}
+          target_commitish: ${{ github.sha }}
+          body: |
+            packs.cod ${{ steps.ver.outputs.v }} for Minecraft 1.21.11 (Fabric). Needs Fabric API.
+            Put the jar in your `mods` folder. See CHANGELOG.md for what's new.
+          files: build/libs/pack-cod-*.jar
+          make_latest: true
